@@ -1,8 +1,6 @@
-# Khollobot
-## Presentation
+# CroCroBot
 
-Initially, this bot discord was designed as an assistant for the HX1 (MPI) class of the Faidherbe preparatory school in Lille (France) (class of 2022/2023).
-For the time being, no modifications have been made to make this bot compatible with multiple servers and/or multiple classes. This may change in the future.
+Forked from https://github.com/Wyrdix/KholloBot
 
 ## Build and run
 To compile this project, use `gradle clean shadowJar`.
@@ -13,9 +11,7 @@ The command will produce a runnable jar.
 ## Login
 For the moment, the structure of the login.json file is as follows: `
 {
-  "discord_token": "[your bot token]",
-  "mail_username": "[the email address you wish to forward to discord]",
-  "mail_password": "[the password of the email address]".
+  "discord_token": "[your bot token]"
 }
 `
-You'll need to fill at least the discord bot token, and set the mail plugin to disabled if you want to run the bot
+You'll need to fill at least the discord bot token.

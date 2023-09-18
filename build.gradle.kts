@@ -26,6 +26,6 @@ tasks.compileJava {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "com.wyrdix.khollobot.KholloBot"
+        attributes["Main-Class"] = "com.wyrdix.crocrobot.CroCroBot"
     }
 }
